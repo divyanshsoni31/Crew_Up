@@ -1,0 +1,35 @@
+Admin
+-Admin dashboard pending verifications 
+- Entire report section
+
+
+Organizer 
+- Organizer Dashboard Rating and Recent Activity
+- Profile section of the Organizer design the entire profile section which things we 
+want from the organizer and design the page accordingly 
+
+
+Volunteer
+- Design the XP Algorithm*
+- Recent Activity section
+- Profile section : rating, level, Skills,Achivement, Certificate, completed events.
+
+
+signin with google apple 
+payment range in scrollbar 
+event description using ai 
+bulk rwview rating
+click based attendence
+bulk attendence
+
+volunteer contact using private and public 
+If The Organizer reaches the certain level then the events will be automatically approves]
+Entertainment industry size proper study of the size with proper statastical numbers
+
+
+
+
+
+OAuthClient 
+ClientID - 762860863593-9ekjs27vhs9rrbfu76ndr7n3jvstjet3.apps.googleusercontent.com
+ClientSecret - [REDACTED]

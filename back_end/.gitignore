@@ -1,0 +1,6 @@
+.env
+node_modules/
+.env
+
+# User Uploaded Photos
+uploads/
