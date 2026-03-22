@@ -5,6 +5,7 @@ import mongoose from 'mongoose';
 
 import path from 'path';
 import { fileURLToPath } from 'url';
+import fs from 'fs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -30,7 +31,12 @@ app.use('/api/events', eventRoutes);
 app.use('/api/volunteer', volunteerRoutes);
 
 // Static file serving for Multer Photo Uploads
-app.use('/uploads', express.static(path.join(__dirname, '/uploads')));
+const uploadDir = path.join(__dirname, '/uploads');
+if (!fs.existsSync(uploadDir)) {
+    fs.mkdirSync(uploadDir, { recursive: true });
+    console.log('📁 Uploads directory created');
+}
+app.use('/uploads', express.static(uploadDir));
 
 // Database Connection
 const connectDB = async () => {
